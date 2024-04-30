@@ -76,7 +76,7 @@ const portfolioShow = () => {
             <div class="button-close" @click="sidebarClose">X</div>
             <ul>
                 <router-link to="/">
-                    <li @click="sidebarClose" :style="route.path === '/' ? 'color:#847C74' : ''">首頁<span>Home</span>
+                    <li @click="sidebarClose" :style="route.path === '/' | route.path === '/Personal-Website/'? 'color:#847C74' : ''">首頁<span>Home</span>
                     </li>
                 </router-link>
                 <router-link to="/about">
