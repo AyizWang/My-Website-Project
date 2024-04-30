@@ -1,0 +1,45 @@
+{
+    "design":[
+        {
+            "imgURL":"/src/assets/images/portfolio/design1_1-1.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design1_2-1.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design1_1-2.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design1_2-2.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design2_1.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design2_2.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/design2_3.jpg"
+        }
+    ],
+    "media":[
+        {
+            "imgURL":"/src/assets/images/portfolio/media1.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/media2.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/media3.jpg"
+        },
+        {
+            "imgURL":"/src/assets/images/portfolio/media4.jpg"
+        }
+    ],
+    "project":[
+        {
+            "imgURL":"/src/assets/images/portfolio/project.jpg"
+        }
+    ]
+
+}
