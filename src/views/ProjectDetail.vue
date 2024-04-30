@@ -26,6 +26,7 @@ const route = useRoute()
                         <li>SCSS管理樣式</li>
                         <li>Element Plus組件</li>
                     </ul>
+                    <a href="https://github.com/AyizWang/My-Website-Project" target="_blank"><u>Github</u></a>
                 </div>
             </div>
         </template>
@@ -59,6 +60,8 @@ const route = useRoute()
                         <li>支付：訂單內容、出貨地址</li>
                         <li>個人中心：個人信息、訂單管理</li>
                     </ul>
+                    <a href="https://ayizwang.github.io/Vue-Shopping-Website/" target="_blank"><u>網站連結</u></a><br>
+                    <a href="https://github.com/AyizWang/Shopping-Website-Project" target="_blank"><u>Github</u></a>
                 </div>
             </div>
         </template>
@@ -143,6 +146,14 @@ const route = useRoute()
                 font-size: 14px;
                 line-height: 24px;
                 letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                font-size: 14px;
+                line-height: 25px;
+                color: $colorOrange;
+                margin-left: 5px;
             }
         }
 
