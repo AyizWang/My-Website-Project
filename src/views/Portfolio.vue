@@ -12,9 +12,9 @@ const route = useRoute()
         <img class="bg-icon bg-icon-3" src="@/assets/images/bg-icon-03.png" alt="">
         <img class="bg-icon bg-icon-4" src="@/assets/images/bg-icon-04.png" alt="">
         <ul>
-            <router-link to="/portfolio/project"><li :style="route.path==='/portfolio/project'?'color:white;background-color:#FFA969':''">專案作品</li></router-link>
-            <router-link to="/portfolio/design"><li :style="route.path==='/portfolio/design'?'color:white;background-color:#FFA969':''">設 計</li></router-link>
-            <router-link to="/portfolio/media"><li :style="route.path==='/portfolio/media'?'color:white;background-color:#FFA969':''">影音/動畫</li></router-link>
+            <router-link to="/Personal-Website/portfolio/project"><li :style="route.path==='/Personal-Website/portfolio/project'?'color:white;background-color:#FFA969':''">專案作品</li></router-link>
+            <router-link to="/Personal-Website/portfolio/design"><li :style="route.path==='/Personal-Website/portfolio/design'?'color:white;background-color:#FFA969':''">設 計</li></router-link>
+            <router-link to="/Personal-Website/portfolio/media"><li :style="route.path==='/Personal-Website/portfolio/media'?'color:white;background-color:#FFA969':''">影音/動畫</li></router-link>
         </ul>
     </section>
 

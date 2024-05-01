@@ -14,7 +14,7 @@ import NotFound from '../views/NotFound.vue'
 
 const routes = [
     {
-        path: "/",
+        path: "/Personal-Website",
         component: Layout,
         alias: "/Personal-Website",
         children: [
@@ -26,35 +26,35 @@ const routes = [
                 }
             },
             {
-                path: '/about',
+                path: '/Personal-Website/about',
                 component: About,
                 meta: {
                     title: '關於我 About - 王姿雅 Wang Zi-Ya'
                 }
             },
             {
-                path: '/portfolio/project',
+                path: '/Personal-Website/portfolio/project',
                 component: Portfolio,
                 meta: {
                     title: '作品集 Portfolio - 王姿雅 Wang Zi-Ya'
                 },
                 children: [
                     {
-                        path: '/portfolio/project',
+                        path: '/Personal-Website/portfolio/project',
                         component: PortfolioProject,
                         meta: {
                             title: '專案作品 Project - 王姿雅 Wang Zi-Ya'
                         }
                     },
                     {
-                        path: '/portfolio/design',
+                        path: '/Personal-Website/portfolio/design',
                         component: PortfolioDesign,
                         meta: {
                             title: '設計 Design - 王姿雅 Wang Zi-Ya'
                         }
                     },
                     {
-                        path: '/portfolio/media',
+                        path: '/Personal-Website/portfolio/media',
                         component: PortfolioMedia,
                         meta: {
                             title: ' 影音/動畫 Media - 王姿雅 Wang Zi-Ya'
@@ -63,35 +63,35 @@ const routes = [
                 ]
             },
             {
-                path: '/portfolio/design/:id',
+                path: '/Personal-Website/portfolio/design/:id',
                 component: DesignDetail,
                 meta: {
                     title: '設計作品 - 王姿雅 Wang Zi-Ya'
                 }
             },
             {
-                path: '/portfolio/media/:id',
+                path: '/Personal-Website/portfolio/media/:id',
                 component: MediaDetail,
                 meta: {
                     title: '影音/動畫作品 - 王姿雅 Wang Zi-Ya'
                 }
             },
             {
-                path: '/portfolio/project/:id',
+                path: '/Personal-Website/portfolio/project/:id',
                 component: ProjectDetail,
                 meta: {
                     title: '專案作品 - 王姿雅 Wang Zi-Ya'
                 }
             },
             {
-                path: '/contact',
+                path: '/Personal-Website/contact',
                 component: Contact,
                 meta: {
                     title: '聯絡資訊 Contact - 王姿雅 Wang Zi-Ya'
                 }
             },
             {
-                path: '/:pathMatch(.*)*',
+                path: '/Personal-Website/:pathMatch(.*)*',
                 component: NotFound,
                 meta: {
                     title: 'Not Found - 王姿雅 Wang Zi-Ya'

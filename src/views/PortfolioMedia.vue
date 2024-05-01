@@ -1,12 +1,12 @@
 <template>
     <div class="design-box">
-        <router-link to="/portfolio/media/video">
+        <router-link to="/Personal-Website/portfolio/media/video">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/media1.jpg" alt="">
                 <span>產品介紹影片製作</span>
             </div>
         </router-link>
-        <router-link to="/portfolio/media/animation">
+        <router-link to="/Personal-Website/portfolio/media/animation">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/media2.jpg" alt="">
                 <span>動畫製作</span>

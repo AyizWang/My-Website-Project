@@ -40,7 +40,7 @@ const portfolioChange = (tab2) => {
                     <li>2022.6-2023.10<br>普德家電股份有限公司｜美編設計人員</li>
                     <li>2023.11-2024<br>學習網頁前端</li>
                 </ul>
-                <router-link to="/about">
+                <router-link to="/Personal-Website/about">
                     <div class="button button-more">了解更多</div>
                 </router-link>
             </div>
@@ -104,7 +104,7 @@ const portfolioChange = (tab2) => {
                 </template>
             </el-carousel>
         </div>
-        <router-link to="/portfolio/project">
+        <router-link to="/Personal-Website/portfolio/project">
             <div class="button protfolio-button-more">了解更多</div><br>
         </router-link>
     </section>

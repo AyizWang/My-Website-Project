@@ -24,13 +24,13 @@ window.onscroll = () => {
         <img v-if="topShow" @click="scrollTop" class="top-button" src="@/assets/images/top-button.png" alt="">
         <div class="wrap">
             <div class="logo">
-                <router-link to="/">
+                <router-link to="/Personal-Website/">
                     <img src="@/assets/images/logo_ziya.png" alt="">
                 </router-link>
             </div>
             <div class="right-box">
                 <ul>
-                    <router-link to="/">
+                    <router-link to="/Personal-Website/">
                         <li class="navItem"
                             :style="route.path === '/' | route.path === '/Personal-Website/'? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             首頁
@@ -38,25 +38,25 @@ window.onscroll = () => {
                             <span class="hover"></span>
                         </li>
                     </router-link>
-                    <router-link to="/about">
+                    <router-link to="/Personal-Website/about">
                         <li class="navItem gap"
-                            :style="route.path === '/about' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">關於我
+                            :style="route.path === '/Personal-Website/about' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">關於我
                             <span>About</span>
                             <span class="hover"></span>
 
                         </li>
                     </router-link>
-                    <router-link to="/portfolio/project">
+                    <router-link to="/Personal-Website/portfolio/project">
                         <li class="navItem gap"
-                            :style="route.path === '/portfolio/project' | route.path === '/portfolio/design' | route.path === '/portfolio/media' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             作品集
                             <span>Portfolio</span>
                             <span class="hover"></span>
                         </li>
                     </router-link>
-                    <router-link to="/contact">
+                    <router-link to="/Personal-Website/contact">
                         <li class="navItem gap"
-                            :style="route.path === '/contact' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            :style="route.path === '/Personal-Website/contact' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             聯絡資訊
                             <span>Contact</span>
                             <span class="hover"></span>

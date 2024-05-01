@@ -1,6 +1,6 @@
 <template>
     <div class="project-box">
-        <router-link to="/portfolio/project/myWebsite">
+        <router-link to="/Personal-Website/portfolio/project/myWebsite">
             <div class="project-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/project.jpg" alt="">
                 <div class="project-txt">
@@ -19,7 +19,7 @@
             </div>
         </router-link>
 
-        <router-link to="/portfolio/project/shoppingWebsite">
+        <router-link to="/Personal-Website/portfolio/project/shoppingWebsite">
             <div class="project-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/project-shopping.jpg" alt="">
                 <div class="project-txt">

@@ -1,30 +1,30 @@
 <template>
     <div class="design-box">
-        <router-link to="/portfolio/design/banner">
+        <router-link to="/Personal-Website/portfolio/design/banner">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/design1_1-1.jpg" alt="">
                 <span>活動Banner</span>
             </div>
         </router-link>
-        <router-link to="/portfolio/design/dm">
+        <router-link to="/Personal-Website/portfolio/design/dm">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/design2_3.jpg" alt="">
                 <span>產品DM&海報</span>
             </div>
         </router-link>
-        <router-link to="/portfolio/design/socialmedia">
+        <router-link to="/Personal-Website/portfolio/design/socialmedia">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/design3_3.jpg" alt="">
                 <span>社群貼文&廣告</span>
             </div>
         </router-link>
-        <router-link to="/portfolio/design/billboard">
+        <router-link to="/Personal-Website/portfolio/design/billboard">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/design5_1.jpg" alt="">
                 <span>看板設計</span>
             </div>
         </router-link>
-        <router-link to="/portfolio/design/outdoor">
+        <router-link to="/Personal-Website/portfolio/design/outdoor">
             <div class="design-item" v-enter="' enterBottom'">
                 <img src="@/assets/images/portfolio/design4_1.jpg" alt="">
                 <span>戶外牆板</span>
