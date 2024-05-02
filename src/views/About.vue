@@ -794,6 +794,13 @@ const tabsChange = (tab) => {
     }
 
     .experience ul li {
+        letter-spacing: 1px;
+        img{
+            max-width:34px;
+            height: 25px;
+            padding: 0px;
+            margin: 10px;
+        }
         &:nth-child(1) {
             transform: translateX(90px);
         }
