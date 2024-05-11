@@ -10,6 +10,7 @@ const portfolioTab = ref("design")
 const portfolioChange = (tab2) => {
     portfolioTab.value = tab2
 }
+
 </script>
 
 <template>

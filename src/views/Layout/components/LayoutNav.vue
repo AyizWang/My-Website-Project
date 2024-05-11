@@ -27,30 +27,39 @@ const portfolioShow = () => {
                     <img src="@/assets/images/logo_ziya.png" alt="">
                 </router-link>
             </div>
-            <div class="right-box"  v-enter="' enterNav'">
+            <div class="right-box" v-enter="' enterNav'">
                 <ul>
                     <router-link to="/Personal-Website/">
                         <li class="navItem"
-                            :style="route.path === '/'| route.path === '/Personal-Website/'? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            :style="route.path === '/Personal-Website/' | route.path === '/' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             首頁
                             <span>Home</span>
                         </li>
                     </router-link>
                     <router-link to="/Personal-Website/about">
                         <li class="navItem gap"
-                            :style="route.path === '/Personal-Website/about' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">關於我
+                            :style="route.path === '/Personal-Website/about' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            關於我
                             <span>About</span>
                         </li>
                     </router-link>
                     <router-link to="/Personal-Website/portfolio/project">
                         <li class="navItem gap"
-                            :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media'| route.path === '/Personal-Website/portfolio/project/myWebsite'| route.path === '/Personal-Website/portfolio/project/shoppingWebsite'
+                            | route.path === '/Personal-Website/portfolio/design/banner' | route.path === '/Personal-Website/portfolio/design/dm'| route.path === '/Personal-Website/portfolio/design/socialmedia'| route.path === '/Personal-Website/portfolio/design/billboard'| route.path === '/Personal-Website/portfolio/design/outdoor'| route.path === '/Personal-Website/portfolio/media/video'| route.path === '/Personal-Website/portfolio/media/animation'
+                            ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             作品集
                             <span>Portfolio</span>
                             <ul class="nav-detail">
-                                <li><router-link to="/Personal-Website/portfolio/project" :style="route.path === '/Personal-Website/portfolio/project'? 'color:#F47272;' : ''">專案作品</router-link></li>
-                                <li><router-link to="/Personal-Website/portfolio/design" :style="route.path === '/Personal-Website/portfolio/design'? 'color:#F47272;letter-spacing: 10px;' : 'letter-spacing: 10px;'">設計</router-link></li>
-                                <li><router-link to="/Personal-Website/portfolio/media" :style="route.path === '/Personal-Website/portfolio/media'? 'color:#F47272;' : ''">影音/動畫</router-link></li>
+                                <li><router-link to="/Personal-Website/portfolio/project"
+                                        :style="route.path === '/Personal-Website/portfolio/project'| route.path === '/Personal-Website/portfolio/project/myWebsite'| route.path === '/Personal-Website/portfolio/project/shoppingWebsite' ? 'color:#F47272;' : ''">專案作品</router-link>
+                                </li>
+                                <li><router-link to="/Personal-Website/portfolio/design"
+                                        :style="route.path === '/Personal-Website/portfolio/design'| route.path === '/Personal-Website/portfolio/design/banner' | route.path === '/Personal-Website/portfolio/design/dm'| route.path === '/Personal-Website/portfolio/design/socialmedia'| route.path === '/Personal-Website/portfolio/design/billboard'| route.path === '/Personal-Website/portfolio/design/outdoor' ? 'color:#F47272;letter-spacing: 10px;' : 'letter-spacing: 10px;'">設計</router-link>
+                                </li>
+                                <li><router-link to="/Personal-Website/portfolio/media"
+                                        :style="route.path === '/Personal-Website/portfolio/media'| route.path === '/Personal-Website/portfolio/media/video'| route.path === '/Personal-Website/portfolio/media/animation' ? 'color:#F47272;' : ''">影音/動畫</router-link>
+                                </li>
                             </ul>
                         </li>
                     </router-link>
@@ -62,7 +71,8 @@ const portfolioShow = () => {
                         </li>
                     </router-link>
                     <li id="line-icon">
-                        <a href="https://line.me/ti/p/KfC6y_RhJG" target="_blank"><img src="@/assets/images/line-icon.png" alt=""></a>
+                        <a href="https://line.me/ti/p/KfC6y_RhJG" target="_blank"><img
+                                src="@/assets/images/line-icon.png" alt=""></a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +86,9 @@ const portfolioShow = () => {
             <div class="button-close" @click="sidebarClose">X</div>
             <ul>
                 <router-link to="/Personal-Website/">
-                    <li @click="sidebarClose" :style="route.path === '/' | route.path === '/Personal-Website/'? 'color:#847C74' : ''">首頁<span>Home</span>
+                    <li @click="sidebarClose"
+                        :style="route.path === '/' | route.path === '/Personal-Website/' ? 'color:#847C74' : ''">
+                        首頁<span>Home</span>
                     </li>
                 </router-link>
                 <router-link to="/Personal-Website/about">
@@ -84,25 +96,31 @@ const portfolioShow = () => {
                         關於我<span>About</span></li>
                 </router-link>
                 <li @click="portfolioShow"
-                    :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media' ? 'color:#847C74' : ''">
+                    :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media'| route.path === '/Personal-Website/portfolio/project/myWebsite'| route.path === '/Personal-Website/portfolio/project/shoppingWebsite'
+                            | route.path === '/Personal-Website/portfolio/design/banner' | route.path === '/Personal-Website/portfolio/design/dm'| route.path === '/Personal-Website/portfolio/design/socialmedia'| route.path === '/Personal-Website/portfolio/design/billboard'| route.path === '/Personal-Website/portfolio/design/outdoor'| route.path === '/Personal-Website/portfolio/media/video'| route.path === '/Personal-Website/portfolio/media/animation'
+                            ? 'color:#847C74' : ''">
                     作品集<span>Portfolio</span>
                     <ul :class="portfolio ? 'sidebar-detail show' : 'sidebar-detail'">
                         <router-link to="/Personal-Website/portfolio/project">
                             <li @click="sidebarClose"
-                                :style="route.path === '/Personal-Website/portfolio/project' ? 'color:#847C74' : ''">專案作品</li>
+                                :style="route.path === '/Personal-Website/portfolio/project'| route.path === '/Personal-Website/portfolio/project/myWebsite'| route.path === '/Personal-Website/portfolio/project/shoppingWebsite' ? 'color:#847C74' : ''">
+                                專案作品</li>
                         </router-link>
                         <router-link to="/Personal-Website/portfolio/design">
-                            <li @click="sidebarClose" :style="route.path === '/Personal-Website/portfolio/design' ? 'color:#847C74' : ''">
+                            <li @click="sidebarClose"
+                                :style="route.path === '/Personal-Website/portfolio/design'| route.path === '/Personal-Website/portfolio/design/banner' | route.path === '/Personal-Website/portfolio/design/dm'| route.path === '/Personal-Website/portfolio/design/socialmedia'| route.path === '/Personal-Website/portfolio/design/billboard'| route.path === '/Personal-Website/portfolio/design/outdoor' ? 'color:#847C74' : ''">
                                 設計</li>
                         </router-link>
                         <router-link to="/Personal-Website/portfolio/media">
-                            <li @click="sidebarClose" :style="route.path === '/Personal-Website/portfolio/media' ? 'color:#847C74' : ''">
+                            <li @click="sidebarClose"
+                                :style="route.path === '/Personal-Website/portfolio/media'| route.path === '/Personal-Website/portfolio/media/video'| route.path === '/Personal-Website/portfolio/media/animation' ? 'color:#847C74' : ''">
                                 影音/動畫</li>
                         </router-link>
                     </ul>
                 </li @click="sidebarClose">
                 <router-link to="/Personal-Website/contact">
-                    <li @click="sidebarClose" :style="route.path === '/Personal-Website/contact' ? 'color:#847C74' : ''">
+                    <li @click="sidebarClose"
+                        :style="route.path === '/Personal-Website/contact' ? 'color:#847C74' : ''">
                         聯絡資訊<span>Contact</span></li>
                 </router-link>
             </ul>

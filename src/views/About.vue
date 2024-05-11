@@ -795,6 +795,7 @@ const tabsChange = (tab) => {
 
     .experience ul li {
         letter-spacing: 1px;
+        white-space: nowrap;
         img{
             max-width:34px;
             height: 25px;

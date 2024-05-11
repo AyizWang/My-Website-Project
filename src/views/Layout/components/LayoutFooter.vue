@@ -48,7 +48,9 @@ window.onscroll = () => {
                     </router-link>
                     <router-link to="/Personal-Website/portfolio/project">
                         <li class="navItem gap"
-                            :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media' ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
+                            :style="route.path === '/Personal-Website/portfolio/project' | route.path === '/Personal-Website/portfolio/design' | route.path === '/Personal-Website/portfolio/media'| route.path === '/Personal-Website/portfolio/project/myWebsite'| route.path === '/Personal-Website/portfolio/project/shoppingWebsite'
+                            | route.path === '/Personal-Website/portfolio/design/banner' | route.path === '/Personal-Website/portfolio/design/dm'| route.path === '/Personal-Website/portfolio/design/socialmedia'| route.path === '/Personal-Website/portfolio/design/billboard'| route.path === '/Personal-Website/portfolio/design/outdoor'| route.path === '/Personal-Website/portfolio/media/video'| route.path === '/Personal-Website/portfolio/media/animation'
+                            ? 'color:white;background: rgba(244,114,114,0.5);' : ''">
                             作品集
                             <span>Portfolio</span>
                             <span class="hover"></span>
